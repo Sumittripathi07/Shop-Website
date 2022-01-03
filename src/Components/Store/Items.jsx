@@ -84,8 +84,8 @@ function Notes() {
         <>
             <div className="row my-3"  >
                 {data.map((note,index) => {
-                    return <InsideItems note={note} key={index} />
-               
+                    return <InsideItems note={note} key={index} i={index} />
+                    
                
                 })}
             </div>
