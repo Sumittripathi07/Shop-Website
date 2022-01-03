@@ -1,38 +1,130 @@
-.App {
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.my-card {
+  margin-bottom: 1.5rem!important;
+}
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(
+30deg);
+}
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+  background: url("https://www.rankme1.com/wp-content/uploads/2019/12/stationery-items.jpeg");
+}
+
+
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+
+
+
+
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -.5);
+  margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+@media (min-width: 768px){
+.col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.homeSvg {
+  vertical-align: middle;
+  height: 30rem;
+}
+
+footer{
+  margin-top: 15px;
+  text-align: center;
+  background-color: gray;
+  font-size: 18px;
+}
+.carousel {
+  margin-bottom: -16px;
+  margin-top: -15px;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 8.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainBox {
+  margin-top: 15px;
+  background-color: rgb(245 245 245);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.inBox{
+  text-align: center;
+}
+.box-pic{
+  height: 150px;
+  border-radius: 18px;
+}
+.box-para{
+  padding: 0px 20px;
+  text-align: center;
+}
+.box{
   display: flex;
-  flex-direction: column;
+  width: 75%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 22px auto;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rev{
+  flex-direction: row-reverse;
 }
