@@ -1,5 +1,5 @@
 import React from 'react';
-import InsideItems from './InsideItems'
+import InsideItems from './InsideItems';
 
 function Notes() {
     const data = [
@@ -82,6 +82,7 @@ function Notes() {
     ]
     return (
         <>
+        <h1 className='fontF1 alignI'>Store</h1>
             <div className="row my-3"  >
                 {data.map((note,index) => {
                     return <InsideItems note={note} key={index} i={index} />

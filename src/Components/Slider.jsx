@@ -19,7 +19,6 @@ const Slider = () => {
           <div className="carousel-caption text-start">
             <h1>Ice-Cream</h1>
             <p>Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a className="btn btn-lg btn-primary" href="#">Sign up today</a></p>
           </div>
         </div>
       </div>
@@ -30,18 +29,16 @@ const Slider = () => {
           <div className="carousel-caption">
             <h1>Stationary</h1>
             <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
           </div>
         </div>
       </div>
       <div className="carousel-item">
-        <svg className="bd-placeholder-img homeSvg" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+        <svg className="bd-placeholder-img homeSvg my-background03" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777" ></rect> <img src="../Images/img00.jpg" href="google.com" height="100%" width="100%" alt="No Imgs" /></svg>
 
         <div className="container">
           <div className="carousel-caption text-end">
             <h1>Water Supply</h1>
             <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a className="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
           </div>
         </div>
       </div>
