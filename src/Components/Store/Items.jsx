@@ -5,12 +5,12 @@ function Notes() {
     const data = [
         {
             "title": "papalu",
-            "description": "My name is papalu sumit",
+            "description": "sumit is bala ",
             "imgs": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
         },
         {
             "title": "Arnav",
-            "description": "My name is Arnav",
+            "description": "sumit is bala",
             "imgs": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
         },
         {

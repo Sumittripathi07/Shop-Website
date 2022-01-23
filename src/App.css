@@ -9,6 +9,7 @@
 }
 .fontF2{
 	font-family: 'Fjalla One', sans-serif;
+	font-size: 1.5rem;
 }
 .fontF3{
 	font-family: 'Kanit', sans-serif;
@@ -329,4 +330,15 @@
 
 
 
+.card{
+	border: none;
+}
+.card-img-top {
+    border-radius: 20px;
+    padding: 5px;
+}
 
+.card-body {
+    border: 2px solid black;
+    border-radius: 24px;
+}
