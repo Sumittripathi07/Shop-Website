@@ -9,14 +9,19 @@
 }
 .fontF2{
 	font-family: 'Fjalla One', sans-serif;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 }
 .fontF3{
 	font-family: 'Kanit', sans-serif;
 }
+.fontF4{
+	font-family: 'Libre Baskerville', serif;
+	margin: 10px;
+}
 .alignI{
 	text-align: center;
 	    font-size: 3rem;
+		margin: 1rem;
 }
 
 
@@ -26,7 +31,7 @@
 }
 .product-device {
   position: absolute;
-  right: 10%;
+  right: 5%;
   bottom: -30%;
   width: 300px;
   height: 540px;
@@ -35,6 +40,7 @@
   transform: rotate(
 30deg);
 }
+
 
 .product-device::before {
   position: absolute;
@@ -81,6 +87,7 @@
   margin-top: calc(var(--bs-gutter-y) * -1);
   margin-right: calc(var(--bs-gutter-x) * -.5);
   margin-left: calc(var(--bs-gutter-x) * -.5);
+  margin: auto;
 }
 @media (min-width: 768px){
 .col-md-7 {
@@ -332,6 +339,7 @@
 
 .card{
 	border: none;
+	width: 23rem;
 }
 .card-img-top {
     border-radius: 20px;
@@ -342,3 +350,39 @@
     border: 2px solid black;
     border-radius: 24px;
 }
+
+
+
+.active-link{
+	color: red;
+}
+
+
+@media only screen and (max-width: 1030px)  {
+	.product-device {
+		right: 0%;
+		bottom: -30%;
+		width: 233px;
+		height: 540px;
+	}
+	
+	.product-device-2 {
+		left: 0%;
+	}
+
+	
+	
+  }
+
+  @media only screen and (max-width: 500px)  {
+	.inBox h2{
+		font-size: calc(1.025rem + .9vw);
+	}
+	.box-pic {
+		height: 122px;
+	}
+	.HB01{
+		width: 6em;
+	}
+
+  }

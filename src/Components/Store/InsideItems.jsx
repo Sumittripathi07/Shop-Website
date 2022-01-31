@@ -20,7 +20,7 @@ function Noteitems(props) {
                 transition:{
                     duration:0.15
                 }
-            }}>
+            }}  whileTap={{ scale: 0.9 }}>
                 <img src={note.imgs} className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title text-center">{note.title}</h5>

@@ -17,8 +17,8 @@ const Slider = () => {
 
         <div className="container">
           <div className="carousel-caption text-start">
-            <h1>Ice-Cream</h1>
-            <p>Some representative placeholder content for the first slide of the carousel.</p>
+            <h1 className='fontF1'>Ice-Cream</h1>
+            {/* <p>Some representative placeholder content for the first slide of the carousel.</p> */}
           </div>
         </div>
       </div>
@@ -27,8 +27,8 @@ const Slider = () => {
 
         <div className="container">
           <div className="carousel-caption">
-            <h1>Stationary</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <h1 className='fontF1'>Stationary</h1>
+            <p className='fontF2'>Stationary that you will love!! <br /> Get only the best Staionary & Gift Supply</p>
           </div>
         </div>
       </div>
@@ -37,8 +37,8 @@ const Slider = () => {
 
         <div className="container">
           <div className="carousel-caption text-end">
-            <h1>Water Supply</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <h1 className='fontF1'>Water Supply</h1>
+            {/* <p>Some representative placeholder content for the third slide of this carousel.</p> */}
           </div>
         </div>
       </div>
